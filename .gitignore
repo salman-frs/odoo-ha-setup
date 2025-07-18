@@ -1,0 +1,42 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfvars.backup
+*.tfvars.json
+*.tfplan
+terraform.tfvars
+
+# Local .env files
+.env
+.env.*
+
+# Ansible
+.ansible/
+*.retry
+*.log
+*.vault
+host_vars/
+group_vars/
+
+# SSH keys & credentials
+*.pem
+*.key
+*.crt
+*.pub
+
+# Python 
+__pycache__/
+*.pyc
+
+# OS/Editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Misc
+*.bak
+*.tmp 
