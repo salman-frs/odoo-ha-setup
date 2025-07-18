@@ -6,7 +6,7 @@ aws_region   = "ap-southeast-3"
 db_name     = "odoo"
 db_username = "odoo"
 
-# Network (default is fine for demo)
+# Network
 vpc_cidr = "10.0.0.0/16"
 
 ssh_key_name = "odoo-ha-setup"
