@@ -7,7 +7,7 @@ crash.log
 *.tfvars.json
 *.tfplan
 terraform.tfvars
-
+.terraform.lock.hcl
 # Local .env files
 .env
 .env.*
